@@ -1,5 +1,5 @@
 # Font Resources
-*Curated collection of high quality typograhpy services and collections that have practical use*
+*Curated collection of high quality typography services and collections that have practical use*
 
 | Service  | Description |
 | ------------- | ------------- |
