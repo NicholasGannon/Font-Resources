@@ -8,6 +8,8 @@
 | [Fontshare](https://www.fontshare.com/)  | Free fonts service from the Indian Tpye Foundry (ITF)  |
 | [Uncut](https://uncut.wtf/)  | Free contemporary-style typeface catalogue  |
 | [Monotype](https://www.monotype.com/)  | Font library focused on creative expression  |
+| [MyFonts](https://www.myfonts.com/)  | One of the largest font marketplces in the world  |
+| [Type Network](https://typenetwork.com/)  | Varied selection of typefaces available |
 
 <br>
 
@@ -28,6 +30,7 @@
 | [Typewolf](https://www.typewolf.com/)  | Comprehensive resource revolving around typography  |
 | [Pro Web Type](https://prowebtype.com/)  | Free online book highlighting the fundamentals of web typography  |
 | [Typoguide](http://www.typogui.de/) | Guide on everyday font/typography challenges |
+| [Fonts In Use](https://fontsinuse.com/) | An independent archive of typography |
 
 <br>
 
