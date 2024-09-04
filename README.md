@@ -1,12 +1,12 @@
 # Font Resources
-*Curated collection of high quality typography services and collections that have practical use*
+*Curated catalog of high quality typography services and collections that have practical use*
 
 | Fonts  | Description |
 | ------------- | ------------- |
 | [Google Fonts](https://fonts.google.com/)  | Free catalog of open-source fonts and icons  |
 | [Adobe Fonts](https://fonts.adobe.com/)  | Vast library of fonts available to Adobe subscribers  |
 | [Fontshare](https://www.fontshare.com/)  | Free fonts service from the Indian Tpye Foundry (ITF)  |
-| [Uncut](https://uncut.wtf/)  | Free contemporary-style typeface catalogue  |
+| [Uncut](https://uncut.wtf/)  | Free contemporary-style typeface catalog  |
 | [Monotype](https://www.monotype.com/)  | Font library focused on creative expression  |
 | [MyFonts](https://www.myfonts.com/)  | One of the largest font marketplces in the world  |
 | [Type Network](https://typenetwork.com/)  | Varied selection of typefaces available |
