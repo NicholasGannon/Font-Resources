@@ -1,9 +1,14 @@
 import './index.css'
+import Hero from './components/Hero'
+import Filters from './components/Filters'
+import Resources from './components/Resources'
 
 export default function App() {
   return (
-    <>
-      <h1 className='text-red-500'>test</h1>
-    </>
+    <div className='container mx-auto px-4 py-20'>
+      <Hero />
+      <Filters />
+      <Resources />
+    </div>
   )
 }
