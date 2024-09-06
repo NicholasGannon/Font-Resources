@@ -1,5 +1,7 @@
-export default function Card({image, altDescription}) {
+export default function Card({imageLink, image, altDescription}) {
     return (
-        <img src={image} alt={altDescription} />
+        <a href={imageLink} className="hover:cursor-pointer hover:brightness-75" target="_blank">
+            <img src={image} alt={altDescription} />
+        </a>
     )
 }
