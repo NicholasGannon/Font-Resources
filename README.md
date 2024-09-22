@@ -34,6 +34,7 @@
 | [A2-Type](https://a2-type.co.uk/) | A London-based type foundry dedicated to contemporary design |
 | [Avondale Type Co.](https://avondaletypeco.com/)| Chicago-based type foundry |
 | [iframe Type Foundry](https://iframefonts.com/)| Modern type foundry based out of Greece |
+| [Lineto](https://lineto.com/)| A Swiss type foundry founded by Cornel Windlin and Stephen Muller |
 
 <br>
 
