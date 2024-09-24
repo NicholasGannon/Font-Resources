@@ -1,22 +1,23 @@
 import Card from "./Card";
 import GoogleFonts from "../assets/GoogleFonts.png";
 import AdobeFonts from "../assets/AdobeFonts.png";
-import FontShare from "../assets/FontShare.png"
-import Monotype from "../assets/Monotype.png"
-import Uncut from "../assets/Uncut.png"
-import MyFonts from "../assets/MyFonts.png"
-import TypeNetwork from "../assets/TypeNetwork.png"
-import AtipoFoundry from "../assets/AtipoFoundry.png"
-import PangramPangram from "../assets/PangramPangram.png"
-import Hoefler from "../assets/Hoefler&Co..png"
-import twoOFiveTF from "../assets/205TF.png"
-import AtwoType from "../assets/A2Type.png"
-import AvondaleTypeCo from "../assets/AvondaleTypeCo..png"
-import iframeTypeFoundry from "../assets/iframeTypeFoundry.png"
-import Typewolf from "../assets/Typewolf.png"
-import ProWebType from "../assets/ProWebType.png"
-import TypoGuide from "../assets/TypoGuide.png"
-import FontsInUse from "../assets/FontsInUse.png"
+import FontShare from "../assets/FontShare.png";
+import Monotype from "../assets/Monotype.png";
+import Uncut from "../assets/Uncut.png";
+import MyFonts from "../assets/MyFonts.png";
+import TypeNetwork from "../assets/TypeNetwork.png";
+import AtipoFoundry from "../assets/AtipoFoundry.png";
+import PangramPangram from "../assets/PangramPangram.png";
+import Hoefler from "../assets/Hoefler&Co..png";
+import twoOFiveTF from "../assets/205TF.png";
+import AtwoType from "../assets/A2Type.png";
+import AvondaleTypeCo from "../assets/AvondaleTypeCo..png";
+import Lineto from "../assets/Lineto.png";
+import iframeTypeFoundry from "../assets/iframeTypeFoundry.png";
+import Typewolf from "../assets/Typewolf.png";
+import ProWebType from "../assets/ProWebType.png";
+import TypoGuide from "../assets/TypoGuide.png";
+import FontsInUse from "../assets/FontsInUse.png";
 
 const resourcesData = [
     { imageLink: "https://fonts.google.com/", image: GoogleFonts, altDescription: "Google Fonts", category: "Fonts" },
@@ -32,6 +33,7 @@ const resourcesData = [
     { imageLink: "https://www.205.tf/", image: twoOFiveTF, altDescription: "205TF", category: "Foundries"},
     { imageLink: "https://a2-type.co.uk/", image: AtwoType, altDescription: "A2type", category: "Foundries"},
     { imageLink: "https://avondaletypeco.com/", image: AvondaleTypeCo, altDescription: "Avondale", category: "Foundries"},
+    { imageLink: "https://lineto.com/", image: Lineto, altDescription: "Lineto", category: "Foundries"},
     { imageLink: "https://iframefonts.com/", image: iframeTypeFoundry, altDescription: "Iframefonts", category: "Foundries"},
     { imageLink: "https://www.typewolf.com/", image: Typewolf, altDescription: "Typewolf", category: "Learning"},
     { imageLink: "https://prowebtype.com/", image: ProWebType, altDescription: "Prowebtype", category: "Learning"},
