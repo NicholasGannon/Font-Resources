@@ -1,6 +1,6 @@
-import Card from "./Card"
-import GoogleFonts from "../assets/GoogleFonts.png"
-import AdobeFonts from "../assets/AdobeFonts.png"
+import Card from "./Card";
+import GoogleFonts from "../assets/GoogleFonts.png";
+import AdobeFonts from "../assets/AdobeFonts.png";
 import FontShare from "../assets/FontShare.png"
 import Monotype from "../assets/Monotype.png"
 import Uncut from "../assets/Uncut.png"
@@ -18,27 +18,42 @@ import ProWebType from "../assets/ProWebType.png"
 import TypoGuide from "../assets/TypoGuide.png"
 import FontsInUse from "../assets/FontsInUse.png"
 
-export default function Resources() {
+const resourcesData = [
+    { imageLink: "https://fonts.google.com/", image: GoogleFonts, altDescription: "Google Fonts", category: "Fonts" },
+    { imageLink: "https://fonts.adobe.com/", image: AdobeFonts, altDescription: "Adobe Fonts", category: "Fonts" },
+    { imageLink: "https://www.fontshare.com/", image: FontShare, altDescription: "FontShare", category: "Fonts"},
+    { imageLink: "https://www.monotype.com/", image: Monotype, altDescription: "Monotype", category: "Fonts"},
+    { imageLink: "https://uncut.wtf/", image: Uncut, altDescription: "Uncut", category: "Fonts"},
+    { imageLink: "https://www.myfonts.com/", image: MyFonts, altDescription: "Myfonts", category: "Fonts"},
+    { imageLink: "https://typenetwork.com/", image: TypeNetwork, altDescription: "Typenetwork", category: "Fonts"},
+    { imageLink: "https://www.atipofoundry.com/", image: AtipoFoundry, altDescription: "atipofoundry", category: "Foundries"},
+    { imageLink: "https://pangrampangram.com/", image: PangramPangram, altDescription: "pangrampangram", category: "Foundries"},
+    { imageLink: "https://typography.com/", image: Hoefler, altDescription: "Hoefler", category: "Foundries"},
+    { imageLink: "https://www.205.tf/", image: twoOFiveTF, altDescription: "205TF", category: "Foundries"},
+    { imageLink: "https://a2-type.co.uk/", image: AtwoType, altDescription: "A2type", category: "Foundries"},
+    { imageLink: "https://avondaletypeco.com/", image: AvondaleTypeCo, altDescription: "Avondale", category: "Foundries"},
+    { imageLink: "https://iframefonts.com/", image: iframeTypeFoundry, altDescription: "Iframefonts", category: "Foundries"},
+    { imageLink: "https://www.typewolf.com/", image: Typewolf, altDescription: "Typewolf", category: "Learning"},
+    { imageLink: "https://prowebtype.com/", image: ProWebType, altDescription: "Prowebtype", category: "Learning"},
+    { imageLink: "http://www.typogui.de/", image: TypoGuide, altDescription: "Typoguide", category: "Learning"},
+    { imageLink: "https://fontsinuse.com/", image: FontsInUse, altDescription: "Fontsinuse", category: "Learning"},
+];
+
+export default function Resources({ selectedFilter }) {
+    const filteredResources = resourcesData.filter(resource => 
+        selectedFilter === 'All' || resource.category === selectedFilter
+    );
+
     return (
         <section className="flex flex-col items-center sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-            <Card imageLink="https://fonts.google.com/" image={GoogleFonts} altDescription="Google Fonts" />
-            <Card imageLink="https://fonts.adobe.com/" image={AdobeFonts} altDescription="Adobe Fonts" />
-            <Card imageLink="https://www.fontshare.com/" image={FontShare} altDescription="FontShare" />
-            <Card imageLink="https://www.monotype.com/" image={Monotype} altDescription="Monotype" />
-            <Card imageLink="https://uncut.wtf/" image={Uncut} altDescription="Uncut" />
-            <Card imageLink="https://www.myfonts.com/" image={MyFonts} altDescription="My Fonts" />
-            <Card imageLink="https://typenetwork.com/" image={TypeNetwork} altDescription="Type Network" />
-            <Card imageLink="https://www.atipofoundry.com/" image={AtipoFoundry} altDescription="Atipo Foundry" />
-            <Card imageLink="https://pangrampangram.com/" image={PangramPangram} altDescription="Pangram Pangram Foundry" />
-            <Card imageLink="https://typography.com/" image={Hoefler} altDescription="Hoefler & Co." />
-            <Card imageLink="https://www.205.tf/" image={twoOFiveTF} altDescription="205TF" />
-            <Card imageLink="https://a2-type.co.uk/" image={AtwoType} altDescription="A2 Type" />
-            <Card imageLink="https://avondaletypeco.com/" image={AvondaleTypeCo} altDescription="Avondale Type Co." />
-            <Card imageLink="https://iframefonts.com/" image={iframeTypeFoundry} altDescription="iframe Type Foundry" />
-            <Card imageLink="https://www.typewolf.com/" image={Typewolf} altDescription="Type Wolf" />
-            <Card imageLink="https://prowebtype.com/" image={ProWebType} altDescription="Pro Web Type" />
-            <Card imageLink="http://www.typogui.de/" image={TypoGuide} altDescription="TypOGuide" />
-            <Card imageLink="https://fontsinuse.com/" image={FontsInUse} altDescription="Fonts In Use" />
+            {filteredResources.map((resource, index) => (
+                <Card 
+                    key={index} 
+                    imageLink={resource.imageLink} 
+                    image={resource.image} 
+                    altDescription={resource.altDescription} 
+                />
+            ))}
         </section>
-    )
+    );
 }
