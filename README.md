@@ -36,6 +36,7 @@
 | [iframe Type Foundry](https://iframefonts.com/)| Modern type foundry based out of Greece |
 | [Lineto](https://lineto.com/)| A Swiss type foundry founded by Cornel Windlin and Stephen Muller |
 | [Sociotype](https://socio-type.com/)| A design-led type foundry from London-based creative studio Socio |
+| [Good Type Foundry](https://goodtypefoundry.com/)| An award-winning type foundry based in Norway |
 
 <br>
 
