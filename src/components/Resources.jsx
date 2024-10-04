@@ -20,6 +20,7 @@ import TypoGuide from "../assets/TypoGuide.png";
 import FontsInUse from "../assets/FontsInUse.png";
 import Sociotype from "../assets/Sociotype.png";
 import GoodType from "../assets/GoodTypeFoundry.png";
+import GrilliType from "../assets/GrilliType.png";
 
 const resourcesData = [
     { imageLink: "https://fonts.google.com/", image: GoogleFonts, altDescription: "Google Fonts", category: "Fonts" },
@@ -39,6 +40,7 @@ const resourcesData = [
     { imageLink: "https://iframefonts.com/", image: iframeTypeFoundry, altDescription: "Iframefonts", category: "Foundries"},
     { imageLink: "https://socio-type.com/", image: Sociotype, altDescription: "Socio-Type", category: "Foundries"},
     { imageLink: "https://goodtypefoundry.com/", image: GoodType, altDescription: "Good Type Foundry", category: "Foundries"},
+    { imageLink: "https://www.grillitype.com/", image: GrilliType, altDescription: "GrilliType", category: "Foundries"},
     { imageLink: "https://www.typewolf.com/", image: Typewolf, altDescription: "Typewolf", category: "Learning"},
     { imageLink: "https://prowebtype.com/", image: ProWebType, altDescription: "Prowebtype", category: "Learning"},
     { imageLink: "http://www.typogui.de/", image: TypoGuide, altDescription: "Typoguide", category: "Learning"},
