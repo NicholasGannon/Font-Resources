@@ -47,6 +47,7 @@
 | [Pro Web Type](https://prowebtype.com/)  | Free online book highlighting the fundamentals of web typography  |
 | [Typoguide](http://www.typogui.de/) | Guide on everyday font/typography challenges |
 | [Fonts In Use](https://fontsinuse.com/) | An independent archive of typography |
+| [Flux-Academy](https://www.flux-academy.com/blog/the-ultimate-guide-to-choosing-fonts) | Blog post providing a guide on choosing fonts |
 
 <br>
 
