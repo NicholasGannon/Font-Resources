@@ -21,6 +21,7 @@ import FontsInUse from "../assets/FontsInUse.png";
 import Sociotype from "../assets/Sociotype.png";
 import GoodType from "../assets/GoodTypeFoundry.png";
 import GrilliType from "../assets/GrilliType.png";
+import FluxAcademy from "../assets/FluxAcademy.png";
 
 const resourcesData = [
     { imageLink: "https://fonts.google.com/", image: GoogleFonts, altDescription: "Google Fonts", category: "Fonts" },
@@ -45,6 +46,7 @@ const resourcesData = [
     { imageLink: "https://prowebtype.com/", image: ProWebType, altDescription: "Prowebtype", category: "Learning"},
     { imageLink: "http://www.typogui.de/", image: TypoGuide, altDescription: "Typoguide", category: "Learning"},
     { imageLink: "https://fontsinuse.com/", image: FontsInUse, altDescription: "Fontsinuse", category: "Learning"},
+    { imageLink: "https://www.flux-academy.com/blog/the-ultimate-guide-to-choosing-fonts", image: FluxAcademy, altDescription: "FluxAcademy", category: "Learning"},
 ];
 
 export default function Resources({ selectedFilter }) {
