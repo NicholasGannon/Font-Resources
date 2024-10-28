@@ -38,6 +38,7 @@
 | [Sociotype](https://socio-type.com/)| A design-led type foundry from London-based creative studio Socio |
 | [Good Type Foundry](https://goodtypefoundry.com/)| An award-winning type foundry based in Norway |
 | [Grilli Type](https://www.grillitype.com/)| An independent Swiss Type Foundry |
+| [Klim Type Foundry](https://klim.co.nz/)| Type foundry based in Wellington, New Zealeand |
 
 <br>
 
