@@ -49,6 +49,7 @@
 | [Typoguide](http://www.typogui.de/) | Guide on everyday font/typography challenges |
 | [Fonts In Use](https://fontsinuse.com/) | An independent archive of typography |
 | [Flux-Academy](https://www.flux-academy.com/blog/the-ultimate-guide-to-choosing-fonts) | Blog post providing a guide on choosing fonts |
+| [CareerFoundry](https://careerfoundry.com/en/blog/ui-design/beginners-guide-to-typography/) | Beginner's guide to typography |
 
 <br>
 
